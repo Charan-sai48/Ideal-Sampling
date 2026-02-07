@@ -1,7 +1,7 @@
 # Ideal, Natural, & Flat-top -Sampling
 ## Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
-## Tools required
+## Software required
  google colab
 ## Theory
 Ideal sampling is a theoretical method in which a continuous-time signal is sampled using an impulse train, producing impulses whose amplitudes equal the signal values at sampling instants, but it is not physically realizable.<BR>
