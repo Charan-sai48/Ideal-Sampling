@@ -4,6 +4,9 @@ Write a simple Python program for the construction and reconstruction of ideal, 
 ## Tools required
  google colab
 ## Theory
+Ideal sampling is a theoretical method in which a continuous-time signal is sampled using an impulse train, producing impulses whose amplitudes equal the signal values at sampling instants, but it is not physically realizable.<BR>
+Natural sampling is a practical method where the signal is multiplied by a finite-width pulse train, causing the sampled signal to follow the input signal during each pulse.<BR>
+Flat-top sampling (sample-and-hold) holds each sampled value constant over the pulse duration, making it suitable for digital systems, though it introduces aperture distortion that can be reduced using a low-pass filter.
 
 ## Program
 ```
@@ -96,4 +99,4 @@ plt.show()
 <img width="1489" height="1189" alt="download" src="https://github.com/user-attachments/assets/54fcee06-3c83-432e-b426-e4bbbb81f2af" />
 
 ## Results
-
+Thus, the python programs for ideal sampling, natural sampling and flat-top sampling has been executed and verified successfully.
